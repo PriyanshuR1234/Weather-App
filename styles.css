@@ -1,0 +1,125 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f8f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+#weather-data, #soil-health, #crop-prices, #best-practices {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+}
+/* body {
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+  } */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .weather-card {
+    background-color: #212121;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 400px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .location {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .settings-icon {
+    color: white;
+  }
+  .poll-count {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .poll-item {
+    text-align: center;
+  }
+  .poll-item i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .weather-details {
+    display: flex;
+    justify-content: space-around;
+  }
+  .weather-detail {
+    text-align: center;
+  }
+  .weather-detail i {
+    font-size: 48px;
+    margin-bottom: 5px;
+  }
+  .temp {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .forecast {
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .forecast-day {
+    text-align: center;
+    margin-right : 20px;
+  }
+  .forecast-day i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .forecast-temp {
+    font-size: 24px;
+  }

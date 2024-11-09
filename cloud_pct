@@ -1,0 +1,11 @@
+timezone_id.innerHTML = response.timezone_id
+wind_direction.innerHTML = response.wind_direction
+wind_speed.innerHTML = response.wind_speed
+humidity.innerHTML = response.humidity
+visibility.innerHTML = response.visibility
+pressure.innerHTML = response.pressure
+sunrise.innerHTML = response.sunrise
+sunset.innerHTML = response.sunset
+temperature.innerHTML = response.temperature
+tex.innerHTMLt=response.text
+
